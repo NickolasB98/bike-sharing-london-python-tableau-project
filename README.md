@@ -55,7 +55,7 @@ Before diving into analysis, I performed extensive data cleaning and preprocessi
 
 - Final Check on Cleaned Data:
     - Conducted a final review to ensure no missing or inconsistent data remained.
-    - 
+      
 <img width="1010" alt="image 4" src="https://github.com/user-attachments/assets/25755cd1-d04f-4c1f-9158-cfc888ea739b" />
 
 You can find the detailed Python code and dataset in this Repository.
