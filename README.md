@@ -37,28 +37,28 @@ Before diving into analysis, I performed extensive data cleaning and preprocessi
 
 - Loading the Dataset:
     - Imported the dataset using Pandas and performed an initial inspection to understand its structure and identify missing or inconsistent data.
+      
+<img width="1015" alt="image" src="https://github.com/user-attachments/assets/c9e0b771-6368-43ce-aa47-f0b04e90fea9" />
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image.png)
-
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%201.png)
+<img width="1012" alt="image 1" src="https://github.com/user-attachments/assets/b5703112-bd9a-4b0b-9b58-fdb3e6e02425" />
 
 - Renaming Columns:
     - Renamed columns to ensure clarity and consistency in the dataset.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%202.png)
+<img width="1012" alt="image 2" src="https://github.com/user-attachments/assets/cf400cf3-4b92-463a-aa5e-7c2df3c80a0f" />
 
 - Converting Data Types and Mapping Values:
     - Converted columns to appropriate data types (e.g., encoded seasons to their actual full names, humidity values to percentage).
     - Mapped the season and weather dictionaries to their more meaningful labels for easier interpretation.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%203.png)
+<img width="1007" alt="image 3" src="https://github.com/user-attachments/assets/6da5bbe1-6432-4237-b78e-11e312f9a909" />
 
 - Final Check on Cleaned Data:
     - Conducted a final review to ensure no missing or inconsistent data remained.
+    - 
+<img width="1010" alt="image 4" src="https://github.com/user-attachments/assets/25755cd1-d04f-4c1f-9158-cfc888ea739b" />
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%204.png)
-
-You can find the detailed Python code and dataset in my [GitHub repository](https://github.com/aimanmaznan/LondonBikeRidesAnalysis).
+You can find the detailed Python code and dataset in this Repository.
 
 # **Crafting an Exploratory Dashboard with Tableau 📈**
 
@@ -66,41 +66,41 @@ With the cleaned dataset ready, I used **Tableau** to create interactive and i
 
 1. **Moving Average (Line Chart)**: This visualization presented a timeline of bike rides over dates, serving as the master control for the entire dashboard, utilizing Tableau Actions.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%205.png)
+<img width="1433" alt="image 5" src="https://github.com/user-attachments/assets/5ae9bd8b-5849-40a5-b283-a1751aa8b883" />
 
 2. **Total Rides (Text KPI)**: Displayed the total count of bike rides KPI for the selected period, providing a quick overview of overall activity.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%206.png)
+<img width="1424" alt="image 6" src="https://github.com/user-attachments/assets/5483638d-c356-465e-a748-c2f83a04854f" />
 
 3. **Temperature vs Wind Speed (Heatmap)**: Explored the relationship between temperature and wind speed, revealing how weather conditions influence bike ride patterns.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%207.png)
+<img width="1424" alt="image 7" src="https://github.com/user-attachments/assets/5224a6ef-64f3-47ec-8e3e-21c419abf67d" />
 
 4. **Weather (Bar):** llustrated the distribution of weather conditions during the selected timeframe, highlighting trends in bike rides under different weather scenarios.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%208.png)
+<img width="1424" alt="image 8" src="https://github.com/user-attachments/assets/c02555cb-d6f8-4a81-8493-0416ffe134e1" />
 
 5. **Hour (Bar)**: Showed the distribution of bike rides throughout a 24-hour cycle, identifying peak ride times.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%209.png)
+<img width="1388" alt="image 9" src="https://github.com/user-attachments/assets/ddb514ba-34b2-4319-b400-13b15c5f8f3c" />
 
 6. **Full Exploratory Dashboard**
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%2010.png)
+<img width="1297" alt="image 10" src="https://github.com/user-attachments/assets/ed61a5d3-476d-4d58-a8ad-f16b016176b0" />
 
 - **Dynamic Filtering:** Visuals update based on the selected date range or hover interactions.
-
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%2011.png)
+  
+<img width="1220" alt="image 11" src="https://github.com/user-attachments/assets/2e8487ff-29a0-4369-9423-9722c5e96a9e" />
 
 - **Tooltip Details:** Weather and hourly distributions are displayed in tooltips when hovering over the heatmap or timeline.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%2012.png)
+<img width="1211" alt="image 12" src="https://github.com/user-attachments/assets/db9fe445-87f9-4c5e-8124-f22e561db9fb" />
 
 - **Customizable Moving Average:** Users can adjust the moving average period (day/week/month) and date range for deeper analysis.
 
-![image.png](London%20Bike%20Rides%20Data%20Analysis%20Project%20%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8F%F0%9F%93%8A%201a7b1a7e4bd880ae808cdb00f17fef92/image%2013.png)
+<img width="1304" alt="image 13" src="https://github.com/user-attachments/assets/fab38062-127d-4ada-b0ec-a883adab84c2" />
 
-Check out the interactive dashboard on my [Tableau](https://public.tableau.com/views/LondonBikeRides_17406648274520/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) Public profile.
+Check out the interactive dashboard on my [Tableau Public Profile](https://public.tableau.com/views/LondonBikeRides_17406648274520/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ## Insights and Takeaways 🚀
 
